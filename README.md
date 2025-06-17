@@ -3,7 +3,7 @@ My own HTTP/S Server built from scratch using low level system sockets and OpenS
 
 ### Features
 * Uses system sockets, only required system libraries are used, no additional I/O abstractions.
-* Uses C like data structres where efficiency is important (doesn't mean it's fast).
+* Uses C like data structures where efficiency is important (doesn't mean it's fast).
 * Custom HTTP parsing, no libraries.
 * Listens for both HTTP and HTTPS connections on different ports.
 * Automatically redirects from HTTP to HTTPS.
@@ -11,4 +11,4 @@ My own HTTP/S Server built from scratch using low level system sockets and OpenS
 
 
 ### Why build this?
-This project is purely educational. It's by no means ready for production. It's definitely slower and much less secure than any mainstream webserver. I wrote this to get a good grasp of how web server, http, tls, sockets etc. work. As such, this project was definitely successful.
+This project is purely educational. It's by no means ready for production. It's definitely slower and much less secure than any mainstream web server. I wrote this to get a good grasp of how web servers, http, tls, sockets etc. work. As such, this project was definitely successful.
